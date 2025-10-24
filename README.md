@@ -62,6 +62,10 @@ graph TB
 | **Coinbase Pro** | Crypto Spot | BTC-USD, ETH-USD |
 | **Coinbase Advanced** | Crypto Spot & Derivatives | BTC-USD, ETH-USD, SOL-USD, XAU-USD-PERP |
 
+## Example of signal via Telegram Bot
+<img width="309" height="386" alt="Screenshot 2025-10-24 at 2 44 17 PM" src="https://github.com/user-attachments/assets/2c1e309d-08c1-4b53-b729-697b4572863a" />
+
+
 ## 🛠️ Quick Start
 
 ### Prerequisites
