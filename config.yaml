@@ -1,0 +1,77 @@
+# Order Flow Engine Configuration
+
+# Exchange configuration
+exchanges:
+  binance:
+    enabled: true
+    auto_discover_gold_futures: true  # Automatically discover available Gold futures
+    symbols:
+      - "btcusdt"
+      - "ethusdt"
+      - "XAUUSDT"  # Gold spot
+      - "XAGUSDT"  # Silver spot
+  coinbase:
+    enabled: true
+    symbols:
+      - "BTC-USD"
+      - "ETH-USD"
+  coinbase_advanced:
+    enabled: true  # Enable Coinbase Advanced Trade
+    symbols:
+      - "BTC-USD"  # Bitcoin spot
+      - "ETH-USD"  # Ethereum spot
+      - "SOL-USD"  # Solana spot
+      - "ADA-USD"  # Cardano spot
+      - "DOGE-USD" # Dogecoin spot
+      - "MATIC-USD" # Polygon spot
+      - "XAU-USD"  # Gold spot
+      - "XAG-USD"  # Silver spot
+      # Derivatives (Futures/Perpetuals)
+      - "BTC-USD-PERP"  # Bitcoin perpetual futures
+      - "ETH-USD-PERP"  # Ethereum perpetual futures
+      - "SOL-USD-PERP"  # Solana perpetual futures
+      - "ADA-USD-PERP"  # Cardano perpetual futures
+      - "DOGE-USD-PERP" # Dogecoin perpetual futures
+      - "MATIC-USD-PERP" # Polygon perpetual futures
+      - "XAU-USD-PERP"  # Gold perpetual futures
+      - "XAG-USD-PERP"  # Silver perpetual futures
+
+# Data processing settings
+bucket_ms: 1000               # Bucket size in milliseconds
+
+# Order flow metrics configuration
+cvd_ema: 50                   # CVD EMA period
+imbalance_threshold: 0.1      # Order book imbalance threshold
+vwap_window: 600              # VWAP calculation window
+
+# Session filtering
+session_filter: true          # Enable session filtering
+
+# Telegram alerts
+telegram:
+  enabled: true                # Enable Telegram alerts
+  token: "8251794018:AAHpVakPEvJyzTa8YVpXa1jXuqvjb0wtimY"  # Your Telegram bot token
+  chat_id: "6216612483"                 # Your Telegram chat ID
+
+# Logging configuration
+logging:
+  level: "DEBUG"               # DEBUG, INFO, WARNING, ERROR
+  file: "logs/orderflow.log"  # Log file path (optional)
+
+# Signal generation parameters
+signals:
+  cvd_threshold: 0.3          # CVD threshold for signal generation
+  absorption_threshold: 0.4    # Absorption ratio threshold
+  confidence_threshold: 20     # Minimum confidence for alerts (0-100)
+  min_volume_threshold: 1000   # Minimum volume for signal generation
+
+# Data processing settings
+data:
+  window_size: 100             # Number of trades to keep in memory
+  update_interval: 1.0        # Update interval in seconds
+
+# Performance settings
+performance:
+  max_concurrent_feeds: 5      # Maximum concurrent data feeds
+  buffer_size: 1000           # Maximum buffer size per symbol
+  cleanup_interval: 3600     # Cleanup interval in seconds
