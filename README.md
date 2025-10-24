@@ -7,7 +7,11 @@
 
 > **Professional-grade real-time order flow analysis engine for quantitative trading applications**
 
-FlowSight is an institutional-quality order flow analysis engine that processes live market data from multiple exchanges to generate actionable trading signals. Built with Python 3.8+ and designed for high-frequency trading environments, it provides real-time insights into market microstructure through advanced order flow metrics. FlowSight gives you long and short signals via a telegram bot + the analysis of the trade.
+FlowSight is an institutional-grade order-flow analysis engine that consumes live market data from multiple exchanges (currently Coinbase and Binance) to generate actionable trading signals in real time.
+
+Built with Python 3.8+ and optimized for high-frequency trading environments, FlowSight analyzes market microstructure using advanced order-flow metrics such as executed volume imbalance, liquidity shifts, and delta pressure.
+
+The system delivers long/short alerts and detailed trade context through a Telegram bot, enabling fast and informed decision-making.
 
 ## 🚀 Key Features
 
