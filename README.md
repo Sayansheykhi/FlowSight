@@ -5,7 +5,7 @@
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-black.svg)](https://github.com/psf/black)
 [![Type Hints](https://img.shields.io/badge/Type%20Hints-mypy-blue.svg)](http://mypy-lang.org/)
 
-> **Professional-grade real-time order flow analysis engine for quantitative trading applications**
+ **Professional-grade real-time order flow analysis engine for quantitative trading applications**
 
 FlowSight is an institutional-grade order-flow analysis engine that consumes live market data from multiple exchanges (currently Coinbase and Binance) to generate actionable trading signals in real time.
 
