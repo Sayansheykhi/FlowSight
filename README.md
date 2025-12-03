@@ -13,17 +13,17 @@ Built with Python 3.8+ and optimized for high-frequency trading environments, Fl
 
 The system delivers long/short alerts and detailed trade context through a Telegram bot, enabling fast and informed decision-making.
 
-## 🚀 Key Features
+##  Key Features
 
-- **🔴 Real-time Data Processing**: Multi-exchange WebSocket streaming (Binance, Coinbase, Coinbase Advanced)
-- **📊 Advanced Order Flow Metrics**: CVD, VWAP, order book imbalance, absorption detection
-- **🎯 Intelligent Signal Generation**: Multi-factor analysis with confidence scoring (0-100%)
-- **📱 Professional Dashboard**: Real-time visualization with dark theme and responsive design
-- **🔔 Smart Alerts**: Telegram integration with enhanced formatting and conditional delivery
-- **⚡ High Performance**: Async/await architecture with sub-millisecond latency
-- **🏗️ Production Ready**: Comprehensive logging, error handling, and configuration management
+- ** Real-time Data Processing**: Multi-exchange WebSocket streaming (Binance, Coinbase, Coinbase Advanced)
+- ** Advanced Order Flow Metrics**: CVD, VWAP, order book imbalance, absorption detection
+- ** Intelligent Signal Generation**: Multi-factor analysis with confidence scoring (0-100%)
+- ** Professional Dashboard**: Real-time visualization with dark theme and responsive design
+- ** Smart Alerts**: Telegram integration with enhanced formatting and conditional delivery
+- ** High Performance**: Async/await architecture with sub-millisecond latency
+- ** Production Ready**: Comprehensive logging, error handling, and configuration management
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```mermaid
 graph TB
