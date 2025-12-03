@@ -151,11 +151,11 @@ telegram:
 
 | Range | Level | Description |
 |-------|-------|-------------|
-| 90-100% | 🔥 Exceptional | All factors perfectly aligned |
-| 80-89% | ⚡ High | Strong market confirmation |
-| 70-79% | 📊 Medium | Moderate confirmation |
-| 60-69% | ⚠️ Low | Weak confirmation |
-| <60% | ❌ Insufficient | Not suitable for trading |
+| 90-100% |  Exceptional | All factors perfectly aligned |
+| 80-89% |  High | Strong market confirmation |
+| 70-79% |  Medium | Moderate confirmation |
+| 60-69% |  Low | Weak confirmation |
+| <60% |  Insufficient | Not suitable for trading |
 
 ## 📊 Sample Output
 
@@ -221,7 +221,7 @@ Access the real-time dashboard at `http://127.0.0.1:8050`
 - **Auto-refresh**: Updates every second
 - **Responsive Design**: Works on desktop and mobile
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -236,7 +236,7 @@ python test_telegram_alert.py
 python test_orchestrator.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 flowsight/
@@ -256,7 +256,7 @@ flowsight/
 └── README.md            # This file
 ```
 
-## 🔧 Advanced Configuration
+##  Advanced Configuration
 
 ### Exchange Settings
 
@@ -292,7 +292,7 @@ performance:
   cleanup_interval: 3600     # Cleanup interval in seconds
 ```
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Docker Deployment
 
@@ -334,7 +334,7 @@ WantedBy=multi-user.target
 - **Memory**: < 500MB RAM for typical workloads
 - **Signal Accuracy**: 65-75% in trending markets
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -354,15 +354,15 @@ mypy core/ dashboard/
 pytest --cov=core --cov-report=html
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This software is for educational and research purposes only. Trading cryptocurrencies involves substantial risk of loss. Past performance does not guarantee future results. Users are responsible for their own trading decisions and risk management.
 
-## 📞 Support
+##  Support
 
 - **GitHub Issues**: [Report bugs and feature requests](https://github.com/yourusername/flowsight/issues)
 - **Documentation**: [Full documentation](https://flowsight.readthedocs.io)
