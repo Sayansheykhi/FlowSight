@@ -368,11 +368,6 @@ This software is for educational and research purposes only. Trading cryptocurre
 - **Documentation**: [Full documentation](https://flowsight.readthedocs.io)
 - **Discord**: [Join our community](https://discord.gg/flowsight)
 
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/flowsight&type=Date)](https://star-history.com/#yourusername/flowsight&Date)
-
----
 
 <div align="center">
 
